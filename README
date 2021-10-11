@@ -1,0 +1,3 @@
+The TOLL code aims to implement the very large constant multiplications, which generally appear in cryptography, under the shift-adds architecture using adders/subtractors. 
+
+More detail information can be found in its README file.
