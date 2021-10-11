@@ -2,4 +2,4 @@ The TOLL code aims to implement the very large constant multiplications, which g
 
 It takes very large constants written in a text file as an input and generates the Verilog design files describing the shift-adds realization of these constants and the Verilog test-bench files as outputs.
 
-More detail information can be found in its README file.
+More information can be found in its README file.
