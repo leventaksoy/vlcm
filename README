@@ -1,5 +1,4 @@
-The TOLL code aims to implement the very large constant multiplication (VLCM) operations, which generally appear in cryptography. 
-It takes very large constants written in a text file as an input and generates the design files describing the 
+The TOLL code aims to implement the very large constant multiplication (VLCM) operations, which generally appear in cryptography. It takes very large constants written in a text file as an input and generates the design files describing the 
 realization of these constant multiplications and the test-bench files, all in Verilog,  as outputs. It can 
 realize the constant multiplications using generic multipliers, compressor trees, and adders/subtractors 
 under the shift-adds architecture. In a shift-adds realization, it aims to maximize the sharing of
