@@ -1,4 +1,4 @@
-The TOLL code aims to implement the very large constant multiplications, which generally appear in cryptography. 
+The TOLL code aims to implement the very large constant multiplication (VLCM) operations, which generally appear in cryptography. 
 It takes very large constants written in a text file as an input and generates the design files describing the 
 realization of these constant multiplications and the test-bench files, all in Verilog,  as outputs. It can 
 realize the constant multiplications using generic multipliers, compressor trees, and adders/subtractors 
@@ -6,4 +6,26 @@ under the shift-adds architecture. In a shift-adds realization, it aims to maxim
 partial products. It can also take into account the number of adder-steps of the realization while 
 reducing the number of addition/subtraction operations.
 
-More information can be found in its README file.
+More information can be found in its README file and in the following publication.
+
+@ARTICLE{aksoy22,
+  author={Aksoy, Levent and Roy, Debapriya Basu and Imran, Malik and Karl, Patrick and Pagliarini, Samuel},
+  journal={IEEE Transactions on Circuits and Systems II: Express Briefs}, 
+  title={Multiplierless Design of Very Large Constant Multiplications in Cryptography}, 
+  year={2022},
+  volume={69},
+  number={11},
+  pages={4503-4507},
+  doi={10.1109/TCSII.2022.3191662}
+}
+
+In addtion to the TOLL, the LEIGER code realizes VLCM operations under high-speed architectures.
+
+More information can be found in its README file and in the following publication.
+
+@INPROCEEDINGS{aksoy24,
+  author={Aksoy, Levent and Roy, Debapriya Basu and Imran, Malik and Pagliarini, Samuel},
+  title={Multiplierless Design of High-Speed Very Large Constant Multiplications}, 
+  booktitle={ASP-DAC}, 
+  note={accepted for publication}
+}
